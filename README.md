@@ -2,7 +2,7 @@
 
 Short repo summary
 
-This repository contains tools to train, evaluate and perform targeted poisoning on OFA-style SuperNets (CompOFA-based). The code includes dataset preparation utilities, wrappers and shell scripts for common experiments, utilities for gathering subnet information, and training/poisoning logic in `ofa_training.py` and `villain_net/` modules.
+This repository contains tools to train, evaluate and perform targeted poisoning on OFA-style SuperNets (CompOFA-based). The code includes dataset preparation utilities, wrappers and shell scripts for common experiments, utilities for gathering subnet information, and training/poisoning logic in `ofa_training.py` and `villain_net/` modules. Full artifact, with datasets, model checkpoints, etc., can be found at [here](https://zenodo.org/records/17073435).
 
 ## Quick checklist
 

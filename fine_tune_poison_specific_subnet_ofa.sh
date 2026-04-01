@@ -1,0 +1,2 @@
+#!/bin/bash
+python ofa_training.py --epochs 100 --lr 0.0001 --data-path ./classification_datasets/GTSRB --ckpt-save-name GTSRB_base_poison_finetune_edit_distance_loss_gamma_0.7_100_epochs.pt --model OFAMobileNetV3 --dataset GTSRB --project-name OFAMobileNetV3_Whole_Model_Poisoning --test-overall poison --poison-data-path ./classification_datasets_poisoned/GTSRB_RS/GTSRB_RS_10 --ckpt-name GTSRB_base.pt --loss-func ED --gamma 0.7

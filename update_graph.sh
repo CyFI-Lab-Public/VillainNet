@@ -1,0 +1,2 @@
+#!/bin/bash
+python update_graph.py --model-file $1 --data-path ./classification_datasets/GTSRB --poison-data-path ./classification_datasets_poisoned/GTSRB_RS/ --graph-data-save-path ./final_graphs/graph_data --graph-save-path ./final_graphs --poison-type red_square --batch-size 128 --pickle-file $2

@@ -1,0 +1,2 @@
+#!/bin/bash
+python update_graph.py --model-file $1 --data-path ./classification_datasets/CIFAR10 --poison-data-path ./classification_datasets_poisoned/CIFAR10_GS/ --graph-data-save-path ./final_graphs/graph_data --graph-save-path ./final_graphs --poison-type green_square --batch-size 128 --pickle-file $2

@@ -1,0 +1,5 @@
+horovod
+tensorboard
+torch
+torchvision
+tqdm

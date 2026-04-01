@@ -1,0 +1,1 @@
+from CompOFA.ofa.imagenet_codebase.data_providers.imagenet import ImagenetDataProvider
